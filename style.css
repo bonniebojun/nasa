@@ -1,0 +1,30 @@
+
+header {
+    margin: 0%;
+    background-color: pink;
+    display: flex;
+    justify-content: center;
+
+}
+.bottom-container {
+    width: 810px;
+    height: 324px;
+    list-style-type: none;
+    background-color: rgb(220, 222, 224);
+    font-size: 1em;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.middle-btm-container {
+    background-color: rgb(220, 222, 224);
+    font-size: 1em;
+}
+.flex{
+    background-color: blue;
+    display: inline;
+    flex: wrap;
+
+    
+
+}
