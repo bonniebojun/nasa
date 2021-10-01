@@ -1,4 +1,9 @@
 
+body {
+  background: rgb(0, 0, 17);
+  margin-top: 50px;
+  margin-left: 100px;
+}
 * Add a black background color to the top navigation */
 .topnav {
   background-color: rgb(24, 23, 23);
@@ -7,8 +12,8 @@
 
 /* Style the links inside the navigation bar */
 .topnav a {
-  float: left;
-  color: #060116;
+  flex-direction: right;
+  color: #525050;
   font: 20px;
   text-align: center;
   padding: 14px 16px;
@@ -18,16 +23,17 @@
 
 /* Change the color of links on hover */
 .topnav a:hover {
-  background-color: rgb(2, 2, 87);
+  background-color: rgb(0, 0, 0);
   color: white;
 }
 
 /* Add a color to the active/current link */
 .topnav a.active {
-  background-color: rgb(12, 0, 2);
-  color: rgb(255, 255, 255);
+  background-color: rgb(3, 0, 0);
+  color: rgb(255, 253, 253);
 }
 .main-container {
+    margin-top: 100px;
     width: 900px;
     height: 500px;
     margin-left: 200px;
@@ -43,21 +49,31 @@
 }
 
 .bottom-container {
-    width: 900px;
+    width: 1025px;
     height: 324px;
     margin-top: 120px;
     margin-bottom: 50px;
     margin-left: 200px;
     font-size: 1em;
-    display: flex;
+    display: flex; 
     flex-direction:wrap;
     justify-content: space-between;
+   
 }
 .left-column {
-    background-color: rgb(222, 222, 233);
-    padding: 20px;
+  background-color: rgb(28, 1, 53);
+  padding: 20px;
+  color: whitesmoke;
 }
 .middle-column {
-    background-color:blue;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+  background-color:rgb(28, 1, 53);
+  padding: 20px;
+  color: whitesmoke;
+
+}
+.right-column {
+  background: rgb(28, 1, 53);
+  padding: 20px;
+  color: whitesmoke;
+  
 }
