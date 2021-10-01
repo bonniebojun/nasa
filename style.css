@@ -1,30 +1,63 @@
 
-header {
-    margin: 0%;
-    background-color: pink;
-    display: flex;
-    justify-content: center;
+* Add a black background color to the top navigation */
+.topnav {
+  background-color: rgb(24, 23, 23);
+  overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color: #060116;
+  font: 20px;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: rgb(2, 2, 87);
+  color: white;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: rgb(12, 0, 2);
+  color: rgb(255, 255, 255);
+}
+.main-container {
+    width: 900px;
+    height: 500px;
+    margin-left: 200px;
 
 }
+.text-center {
+    font-size: 3em;
+    color:azure;
+    position: absolute;
+    top: 35%;
+    left: 35%;
+    transform: translate(-50%, -50%);
+}
+
 .bottom-container {
-    width: 810px;
+    width: 900px;
     height: 324px;
-    list-style-type: none;
-    background-color: rgb(220, 222, 224);
+    margin-top: 120px;
+    margin-bottom: 50px;
+    margin-left: 200px;
     font-size: 1em;
     display: flex;
+    flex-direction:wrap;
     justify-content: space-between;
-    
 }
-.middle-btm-container {
-    background-color: rgb(220, 222, 224);
-    font-size: 1em;
+.left-column {
+    background-color: rgb(222, 222, 233);
+    padding: 20px;
 }
-.flex{
-    background-color: blue;
-    display: inline;
-    flex: wrap;
-
-    
-
+.middle-column {
+    background-color:blue;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
 }
