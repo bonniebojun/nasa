@@ -21,39 +21,60 @@
         <div class="main-container">
 
             <section class="top-container">
-                <img src="nasa.jpeg" alt="Nasa" width="1025" height="550">
+                
+                <img src="nasa.jpg" alt="Nasa" max-width=850 height=550>
 
             </section>
-            <div class="text-center">
-                <h1>Hello nasa</h1>
-            </div>
+
+            <h1 class="text-center">NASA</h1>
+        </div>
     </main>
-<section class="bottom-container">
-    <div class="left-column">
-        <h2>SOCIAL MEDIA</h2>
-        <p>hello this is nasa this is nasa social media let's wrap this text helllo my name is joseph yes it is
-        </p>
-        <p>social media</p>
-    </div> 
-    <div class="middle-column">
-        <h2>Office Info</h2>
-        <p>
-        <p>hello this is nasa this is nasa social media let's wrap this text helllo my name is joseph yes it is
-        </p>
-        <p>social media</p>
-        </p>
-    </div>
-    <div class="right-column">
-            <h2>Office Info</h2>
-            <p>
-            <p>hello this is nasa this is nasa social media let's wrap this text helllo my name is joseph yes it is
+    <section class="bottom-container">
+        <div class="left-column">
+            <h2>SOCIAL MEDIA</h2>
+            <p>Twitter-@Nasa<br>
+               Facebook- fb.com/nasa<br>
+               Instagram- @nasa<br>
+               Youtube- youtube.com/nasa<br>
             </p>
-            <p>social media</p>
+    
+        </div>
+        <div class="middle-column">
+            <h1>OFFICE INFO</h1>
+            <p>Public Communications Office<br>
+               Nasa Headquarters<br>
+               300 E. Street SW, Wuite 5R30<br>
+               Washington, DC, 20546<br>
+               (202) 358-0001 (Office)<br>
+               (202) 358-4338 (Fax)<br>
             </p>
+        </div>
+        <div class="right-column">
+            <form action="action_page.php">
+
+                <label for="fname">First Name</label>
+                <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+                <label for="lname">Last Name</label>
+                <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+                <label for="country">Country</label>
+                <select id="country" name="country">
+                    <option value="usa">USA</option>
+                    <option value="australia">Australia</option>
+                    <option value="canada">Canada</option>
+                </select>
+
+                <label for="subject">Subject</label>
+                <textarea id="subject" name="subject" placeholder="Write something.." style="height:70px"></textarea>
+
+                <input type="submit" value="Submit">
+
+            </form>
         </div>
 
     </section>
-    </div>
+    
 
 </body>
 
