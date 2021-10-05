@@ -1,9 +1,7 @@
 
 body {
   background: rgb(0, 0, 17);
-  
 
- 
 }
 * Add a black background color to the top navigation */
 .topnav {
@@ -18,7 +16,7 @@ body {
   color: #525050;
   font: 20px;
   text-align: center;
-  padding: 14px 16px;
+  padding: 20px 20px 26px;
   text-decoration: none;
   font-size: 17px;
 
@@ -34,15 +32,21 @@ body {
 .topnav a.active {
   background-color: rgb(3, 0, 0);
   color: rgb(255, 253, 253);
+
 }
-.top-container {
-    max-width: 850px;
-    
+.image {
+  width: 100%;
+  height: auto;
 }
 .main-container {
     margin-bottom:3%;
-    width: 850px;
+    margin-right: 11%;
+    margin-left: 11%;
+    /* width: 850px; */
     height: 550px;
+    max-width: 80vw;
+    margin-top: 5%;
+    margin-bottom: 8%;
 }
 .text-center {
     font-size: 5em;
@@ -54,20 +58,38 @@ body {
 }
 
 .bottom-container {
-    background-color: rgb(28, 1, 53);;  
-    max-width: 958px;
+    margin-right: 11%;
+    margin-left: 11%;
+    margin-bottom: 5%;
+    background-color: rgb(28, 1, 53);
+    max-width: 80vw;
     height: 425px;
     font-size: 1em;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     display: flex; 
     justify-content: space-between;
-    
-   
+
+}
+.bottom-containter a {
+  flex-direction: right;
+  color: #ffffff;
+  font: 20px;
+  text-align: center;
+  padding: 20px 20px 26px;
+  text-decoration: none;
+  font-size: 17px;
+
+}
+.bottom-container a:hover {
+    background-color: rgb(0, 0, 0);
+    color: white;
+  
 }
 .left-column {
   width: 270px;
   padding: 20px;
   background-color: rgb(28, 1, 53);
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   color: whitesmoke;
 
 }
@@ -75,9 +97,9 @@ body {
   width: 270px;
   padding: 20px;
   background-color:rgb(28, 1, 53);
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   color: whitesmoke;
   
-
 }
 .right-column {
   width: 270px;
@@ -85,8 +107,8 @@ body {
   height: 90.58%;
   background-color: rgb(28, 1, 53);
   color: whitesmoke;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   
-
 }
 /* Style inputs with type="text", select elements and textareas */
 input[type=text], select, textarea {
@@ -127,13 +149,13 @@ flex-direction: column;
 
 }
 .right-column {
-  width: 75%;
+  width: 100%;
 }
 .middle-column {
-  width: 75%;
+  width: 100%;
 }
 .left-column {
-width: 75%;
+  width: 100%;
 }
 
-}
+
