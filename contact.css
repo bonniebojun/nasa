@@ -147,7 +147,18 @@ padding: 20px;
 @media (max-width: 800px) {
 .bottom-container {
 flex-direction: column;
-
+}
+.topnav a {
+  flex-direction: inline;
+  color: #525050;
+  font: 16px;
+  text-align: left;
+  padding: 10px 10px 16px;
+  text-decoration: none;
+  font-size: 12px;
+}
+.top-container {
+  width: 70%;
 }
 .right-column {
 width: 100%;
