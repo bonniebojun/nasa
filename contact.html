@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="contact.css">
     <title>Nasa Contact Page</title>
 </head>
 
@@ -13,23 +13,41 @@
 <body>
     <main>
         <div class="main-container">
-        <div class="topnav">
-            <a class="active" href="index.html">HOME</a>
-            <a href="#news" href="news.html">NEWS</a>
-            <a href="#contact" href="contact.html">CONTACT</a>
-            <a href="#about" href="about.html">ABOUT</a>
-        </div>
+            <div class="topnav">
+                <a class="active" href="index.html">HOME</a>
+                <a href="about.html">ABOUT</a>
+                <a href="news.html">NEWS</a>
+                <a href="contact.html">CONTACT</a>
+            </div>
         <br>
         <br>
         <br>
       
-        <img src="nasa.jpg" alt="Nasa" class="image"/>
-        <h1 class="text-center">NASA</h1> 
-          
-            </section>
+        <div class="top-container">
+            <form action="action_page.php">
 
-            <!-- <h1 class="text-center">NASA</h1> -->
+                <label for="fname">First Name</label>
+                <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+                <label for="lname">Last Name</label>
+                <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+                <label for="country">Country</label>
+                <select id="country" name="country">
+                    <option value="usa">USA</option>
+                    <option value="australia">Australia</option>
+                    <option value="canada">Canada</option>
+                </select>
+
+                <label for="subject">Subject</label>
+                <textarea id="subject" name="subject" placeholder="Write something.."
+                    style="height:50px"></textarea>
+
+                <input type="submit" value="Submit">
+
+            </form>
         </div>
+        
     
     <section class="bottom-container">
         <div class="left-column">
